@@ -1,0 +1,46 @@
+form{
+    width:400px;
+}
+
+table{
+    width: 100%;
+}
+
+#d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#log{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+
+#i{
+    background-color: green;
+}
+#d1{
+    padding-top: 10;
+}
+table tr:nth-child(5) {
+    line-height: 8px; /* Adjust height as needed */
+  }
+
+
+  #cancel{
+    background-color: rgb(211, 206, 206);
+  }
+
+
+  button{
+    background-color: rgb(241, 19, 19);
+    padding-left: 2%;
+    border-radius:0.5cap;
+
+  }
+
+  
