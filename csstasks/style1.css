@@ -1,0 +1,38 @@
+table {
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 50px auto;
+    background-color:rgb(81, 178, 178);
+    border:2px solid black;
+    border-radius: 15px;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #99cc00;
+    border-radius: 15px;
+}
+
+.box.oval {
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+}
